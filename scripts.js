@@ -57,3 +57,13 @@ window.onscroll = function(){
         $(".mainheader").css("background-color", "transparent");
     }        
 };
+
+function book_now(){
+    $('#contactwindow').css('transform','scale(1)');
+    $('.booknow').css('transform','scale(0)');
+}
+
+function close_popup(){
+    $('#contactwindow').css('transform','scale(0)');
+    $('.booknow').css('transform','scale(1)');
+}
