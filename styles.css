@@ -39590,3 +39590,79 @@
     box-shadow: 0px 0px 10px 0px black;
     transform: scale(92%);
   }
+
+.booknow{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 20px;
+  transition:500ms;
+}
+
+#contactwindow{
+  transform: scale(0);
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+  position: fixed;
+  transition: all 500ms ease 0s;
+  transform-origin: 95% 5%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-frame{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+#popup-close-btn{
+  position: absolute;
+  cursor: pointer;
+  font-size: 40px;
+  right: 15px;
+  top: 10px;
+}
+
+#map-section-bg{
+  background-image: url(assets/activities.jpg); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 737px; 
+  display: flex;
+  flex-direction: 
+  column-reverse;
+  align-items: center; 
+  justify-content: center;
+}
+
+#map-frame{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  box-shadow: black 1px 0px 15px 1px;
+  border-radius: 30px;
+}
+
+#map-iframe{
+  width: 100%;
+  height: 40vh;
+  border: 0px;
+  border-radius: 20px;
+}
+
+#get-direction{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+}
