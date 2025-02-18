@@ -39666,3 +39666,13 @@
   flex-direction: row;
   justify-content: center;
 }
+
+#bgm-btn{
+  color: #0f74bc;
+  opacity: 0;
+  transition: 500ms;
+  width: 50px;
+  text-align: center;
+  align-content: center;
+  cursor: pointer;
+}
