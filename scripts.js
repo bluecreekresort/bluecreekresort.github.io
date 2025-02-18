@@ -1,3 +1,6 @@
+var bgm = document.getElementById("bgm");
+var play_pause = false;
+
 function chatOnWhatsapp() {
     let name         = $("#name").val();
     let checkindate  = $("#checkindate").val();
@@ -44,9 +47,26 @@ function chatOnWhatsapp() {
 $(window).scroll(function() {
     $(".mainheader").css("backdrop-filter", "blur(15px)");
     $(".mainheader").css("background-color", "rgba(175,175,175,0.25)");
-    var bgm = document.getElementById("bgm");
-    bgm.play();
+    if(play_pause !== "paused") {
+        play_pause = "playing";
+        bgm.play();
+        $("#bgm-btn").css("opacity", "1");
+    }
 });
+
+function pause_bgm(){
+    play_pause = "paused";
+    bgm.pause();
+    $("#bgm-btn").attr("onclick", "play_bgm()")
+        .html("&#xe04f;");
+}
+
+function play_bgm(){
+    play_pause = "playing";
+    bgm.play();
+    $("#bgm-btn").attr("onclick", "pause_bgm()")
+        .html("&#xe050;");
+}
 
 window.onscroll = function(){
     var B = document.body;
