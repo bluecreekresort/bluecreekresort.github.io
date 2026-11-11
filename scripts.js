@@ -26,7 +26,7 @@ function chatOnWhatsapp() {
     checkoutdate = dateObject.toLocaleString('en-gb', options);
 
     let content      = "Hi, I am " + name + "!, and I am reaching out to explore room availability for " + adultsnumber + " members from " + checkindate + " to " + checkoutdate + ". Could you kindly share information on the availability and rates?";
-    let whatsapp_url = "https://wa.me/918075418509?text=" + encodeURI(content);
+    let whatsapp_url = "https://wa.me/919037855944?text=" + encodeURI(content);
 
     window.open(whatsapp_url, `_blank`);
 }
