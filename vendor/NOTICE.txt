@@ -1,0 +1,15 @@
+Third-party files kept in this folder so the site stays static on GitHub Pages.
+
+Lenis 1.3.17
+https://github.com/darkroomengineering/lenis
+MIT License
+
+Cormorant Garamond
+https://github.com/CatharsisFonts/Cormorant
+SIL Open Font License, Version 1.1
+
+Outfit
+https://github.com/Outfitio/Outfit-Fonts
+SIL Open Font License, Version 1.1
+
+Only the Latin (and Outfit Latin Extended) subsets are included.
